@@ -1,0 +1,3 @@
+#The maid pack that the client player needs to download, needs to fill in the URL and the SHA1 value of the file
+#Example: ["https://www.dropbox.com/download/apple.zip", "https://www.dropbox.com/download/cat.zip"]
+ClientPackDownloadUrls = ["https://tlmdl.cfpa.team/file/yingbai_arknights_pack-1.0.3.zip", "https://tlmdl.cfpa.team/file/ponies_pack-1.0.0.zip", "https://tlmdl.cfpa.team/file/huangushi-1.0.0.zip"]
