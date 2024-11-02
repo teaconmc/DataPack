@@ -2,7 +2,7 @@
 	#Ice or snow layer will melt in warm place.
 	IceAndSnowMelt = false
 	#Add heat stroke effect in summer noon while in hot biome.
-	HeatStroke = true
+	HeatStroke = false
 
 [Season]
 	#The lasting days of each term (24 in total).
