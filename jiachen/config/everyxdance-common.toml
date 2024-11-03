@@ -1,0 +1,14 @@
+[everyxdance-common-config]
+	#How many ticks (1 sec = 20 ticks) will a dance last. It is recommended to be divisible by 40 or 80.
+	#Range: 20 ~ 72000
+	MOB_DANCE_TOTAL_TICKS = 1000
+	#How possible will a mob dance after killing target or survive from attacking. 0: never, 100: always.
+	#Range: 0 ~ 100
+	MOB_DANCE_POSSIBILITY_ATTACK = 100
+	#How possible will a mob dance after breed. 0: never, 100: always.
+	#Range: 0 ~ 100
+	MOB_DANCE_POSSIBILITY_BREED = 100
+	#Dance animations that won't show in your client (only works in client side). See client latest.log and search for "Dancing Animations" for getting all dancing animations.
+	DISABLED_DANCE_PRESETS = []
+	#Entity types for those who can dance (only works in server side). During their dance, they will not attack other entities.
+	DANCEABLE_MOB_TYPES = ["minecraft:axolotl", "minecraft:cat", "minecraft:cave_spider", "minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:drowned", "minecraft:enderman", "minecraft:evoker", "minecraft:fox", "minecraft:goat", "minecraft:hoglin", "minecraft:horse", "minecraft:husk", "minecraft:illusioner", "minecraft:iron_golem", "minecraft:llama", "minecraft:mule", "minecraft:ocelot", "minecraft:panda", "minecraft:pig", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:pillager", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:ravager", "minecraft:sheep", "minecraft:skeleton", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:spider", "minecraft:stray", "minecraft:turtle", "minecraft:vex", "minecraft:villager", "minecraft:vindicator", "minecraft:wandering_trader", "minecraft:warden", "minecraft:witch", "minecraft:wither_skeleton", "minecraft:wolf", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:zombie_horse", "minecraft:zombified_piglin", "minecraft:zoglin"]

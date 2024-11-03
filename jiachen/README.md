@@ -1,5 +1,9 @@
 # 《普洱·甲辰茶会》目录结构
 
+## 写在前面
+
+`assets/simplebackups/lang` 下的文件源自 https://github.com/ChaoticTrials/SimpleBackups/tree/1.21.x/src/main/resources/assets/simplebackups/lang 原文件在 Apache Licese, Version 2.0 下发布。
+
 ## 我应该把文件放哪？
 
   - 资源包相关内容放入 `assets`。

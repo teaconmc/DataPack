@@ -1,0 +1,25 @@
+name = "default"
+
+[[permissions]]
+permission = "madparticle.commands.mp_demo"
+value = true
+
+[[permissions]]
+permission = "voteme.create"
+value = false
+
+[[permissions]]
+permission = "voteme.create.counter"
+value = false
+
+[[permissions]]
+permission = "voteme.modify"
+value = false
+
+[[permissions]]
+permission = "voteme.modify.counter"
+value = false
+
+[[permissions]]
+permission = "powertool.see_command_feedback_from_others"
+value = false

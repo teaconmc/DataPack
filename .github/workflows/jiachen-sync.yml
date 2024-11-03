@@ -22,6 +22,7 @@ jobs:
       - name: Create Resource / Data Pack Archive
         run: |
           cd jiachen
+          rm .gitignore README.md
           zip -qrm TeaCon-JiaChen-Resource.zip assets
           zip -qu TeaCon-JiaChen-Resource.zip pack.mcmeta pack.png
           zip -qrm TeaCon-JiaChen-Data.zip data

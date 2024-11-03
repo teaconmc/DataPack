@@ -1,0 +1,41 @@
+name = "builder"
+
+[[parents]]
+group = "default"
+
+[[prefixes]]
+prefix = "[参展选手] "
+priority = 1
+
+[[permissions]]
+permission = "area_control.commands.claim"
+value = true
+
+[[permissions]]
+permission = "area_control.commands.build"
+value = true
+
+[[permissions]]
+permission = "spark.all"
+value = true
+
+[[permissions]]
+permission = "command.spark"
+value = true
+
+[[permissions]]
+permission = "command.spark.args"
+value = true
+
+[[permissions]]
+permission = "worldedit.*"
+value = true
+
+[[permissions]]
+permission = "command.tp.*"
+value = true
+
+[[permissions]]
+permission = "command.gamemode.*"
+value = true
+

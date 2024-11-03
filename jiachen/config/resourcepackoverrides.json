@@ -1,0 +1,11 @@
+{
+  "schema_version": 2,
+  "default_packs": [
+    "file/TeaCon-JiaChen-Resource.zip"
+  ],
+  "overrides": {
+    "file/TeaCon-JiaChen-Resource.zip": {
+      "required": true
+    }
+  }
+}

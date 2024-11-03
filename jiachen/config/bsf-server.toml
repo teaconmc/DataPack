@@ -1,0 +1,44 @@
+[blackHoleDrop]
+	#Whether to drop when black hole snowballs destroy blocks. Set to false to improve performance. Default value: false
+	blackHoleDrop = false
+
+[icicleSnowballDuration]
+	#The life span of icicle snowball in tick. Default value: 80.
+	#Range: > 0
+	icicleSnowballDuration = 80
+
+[shootingInertia]
+	#Default value: false.
+	shootingInertia = false
+
+[explosiveDestroy]
+	#Whether explosive snowballs can destroy blocks. Default value: true
+	explosiveDestroy = true
+
+[icicleSnowballCapacity]
+	#The capacity of icicle snowball. Default value: 2147483647.
+	#Range: > 0
+	icicleSnowballCapacity = 2147483647
+
+[reconstructSnowballDuration]
+	#The life span of reconstruct snowball in tick. Default value: 80.
+	#Range: > 0
+	reconstructSnowballDuration = 80
+
+[reconstructSnowballCapacity]
+	#The capacity of reconstruct snowball. Default value: 500.
+	#Range: 0 ~ 1100
+	reconstructSnowballCapacity = 500
+
+[blackHoleDestroy]
+	#Whether black hole snowballs can destroy blocks. Default value: false
+	blackHoleDestroy = false
+
+[enableFriendlyFire]
+	#Default value: false.
+	enableFriendlyFire = false
+
+[expansionSnowballDuration]
+	#The life span of expansion snowball in tick. Default value: 80.
+	#Range: > 0
+	expansionSnowballDuration = 80
