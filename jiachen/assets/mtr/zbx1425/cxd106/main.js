@@ -31,9 +31,7 @@ function renderTrain(ctx, state, train) {
   matrices.popPose();
   */
 
-  fwdRail = train.path().get(train.getRailIndex(train.getRailProgress(0), true)).rail;
-  bwdRail = train.path().get(train.getRailIndex(train.getRailProgress(train.trainCars()), false)).rail;
-  trainInAir = fwdRail.getModelKey() == "null" || bwdRail.getModelKey() == "null";
+  trainInAir = false;
   state.wheelAngle = (state.wheelAngle + (train.isReversed() ? -1 : 1) 
     * (train.speed() * 20.0 * Timing.delta()) / 1.09) % (Math.PI * 2);
 
@@ -116,25 +114,25 @@ function renderBogie(ctx, state, matrices, i, trainInAir, isCar) {
     ctx.drawConnModel(modelBogieToUse, i, matrices);
   }
 
-  matrices.pushPose();
-  matrices.translate(0, 1.3723, 1);
-  matrices.rotateX(state.wheelAngle);
-  if (isCar) {
-    ctx.drawCarModel(modelBogieWheel, i, matrices);
-  } else {
-    ctx.drawConnModel(modelBogieWheel, i, matrices);
-  }
-  matrices.popPose();
+  //matrices.pushPose();
+  //matrices.translate(0, 1.3723, 1);
+  //matrices.rotateX(state.wheelAngle);
+  //if (isCar) {
+  //  ctx.drawCarModel(modelBogieWheel, i, matrices);
+  //} else {
+  //  ctx.drawConnModel(modelBogieWheel, i, matrices);
+  //}
+  //matrices.popPose();
 
-  matrices.pushPose();
-  matrices.translate(0, 1.3723, -1);
-  matrices.rotateX(state.wheelAngle);
-  if (isCar) {
-    ctx.drawCarModel(modelBogieWheel, i, matrices);
-  } else {
-    ctx.drawConnModel(modelBogieWheel, i, matrices);
-  }
-  matrices.popPose();
+  //matrices.pushPose();
+  //matrices.translate(0, 1.3723, -1);
+  //matrices.rotateX(state.wheelAngle);
+  //if (isCar) {
+  //  ctx.drawCarModel(modelBogieWheel, i, matrices);
+  //} else {
+  //  ctx.drawConnModel(modelBogieWheel, i, matrices);
+  //}
+  //matrices.popPose();
 }
 
 function smoothEnds(startValue, endValue, startTime, endTime, time) {
