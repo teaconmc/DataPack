@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "整体评价"
+  },
+  "enabled": {
+    "default": false,
+    "modifiable": false
+  },
+  "description": {
+    "text": "对模组的整体评价：你是否喜欢这个模组？"
+  }
+}

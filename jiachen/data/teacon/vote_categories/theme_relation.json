@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "主题评价：朋友与友谊"
+  },
+  "enabled": {
+    "default": false,
+    "modifiable": false
+  },
+  "description": {
+    "text": "模组是否成功地让玩家感受友谊带来的和谐与美好"
+  }
+}

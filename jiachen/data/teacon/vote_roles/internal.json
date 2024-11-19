@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "内测玩家 / 选手"
+  },
+  "selector": "@a[tag=teacon_internal]",
+  "participations": [
+    {
+      "category": "teacon:summary",
+      "weight": 1.0
+    }
+  ]
+}

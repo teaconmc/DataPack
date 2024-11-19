@@ -1,0 +1,20 @@
+{
+  "name": {
+    "text": "玩家"
+  },
+  "selector": "@a",
+  "participations": [
+    {
+      "category": "teacon:summary",
+      "weight": 1.0
+    },
+    {
+      "category": "teacon:theme_nature",
+      "weight": 1.0
+    },
+    {
+      "category": "teacon:theme_relation",
+      "weight": 1.0
+    }
+  ]
+}
