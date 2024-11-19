@@ -3,7 +3,7 @@
     "text": "整体评价"
   },
   "enabled": {
-    "default": false,
+    "default": true,
     "modifiable": false
   },
   "description": {
