@@ -1,0 +1,14 @@
+{
+  "maxParticleAmountOfSingleQueue": 65536,
+  "limitMaxParticleGenerateDistance": false,
+  "noWelcomeScreen": false,
+  "bufferFillerThreads": 6,
+  "takeOverRendering": "ALL",
+  "takeOverTicking": "ALL",
+  "optimizeCommandBlockEditScreen": true,
+  "lightCacheXZRange": 256,
+  "lightCacheYRange": 128,
+  "forceMaxLight": false,
+  "translucentMethod": "OIT",
+  "lightCacheRefreshInterval": "FRAME"
+}

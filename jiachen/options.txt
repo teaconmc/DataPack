@@ -1,3 +1,9 @@
 forceUnicodeFont:true
-lang:zh_cn
+gamma:1.0
+renderClouds:"false"
+renderDistance:14
 resourcePacks:["file/TeaCon-JiaChen-Resource.zip"]
+lang:zh_cn
+skipMultiplayerWarning:true
+syncChunkWrites:true
+soundCategory_music:0.0
