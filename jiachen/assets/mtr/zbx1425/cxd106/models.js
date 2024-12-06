@@ -25,6 +25,5 @@ idTexConnector = Resources.idRelative("s_train_connector.png");
 rawModelBogieBase = ModelManager.loadRawModel(Resources.manager(),
   Resources.idRelative("bogie.obj"), null);
 rawModelBogieBase.applyUVMirror(false, true);
-rawModelBogieBase.applyScale(1, 1.2, 1);
-rawModelBogieBase.applyTranslation(0, -0.2, 0);
+rawModelBogieBase.applyTranslation(0, 0.4, 0);
 modelBogie = ModelManager.uploadVertArrays(rawModelBogieBase);
