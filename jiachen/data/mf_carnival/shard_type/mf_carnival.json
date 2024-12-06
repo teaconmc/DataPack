@@ -1,0 +1,92 @@
+{
+	"mf_carnival:world": {
+		"text_color": "#43f099",
+		"glow_color": "#00ff48",
+		"collect_particle": "minecraft:glow",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_visitor"
+		},
+		"list_order": 1
+	},
+	"mf_carnival:temperance": {
+		"text_color": "#48dbd1",
+		"glow_color": "#fff596",
+		"collect_particle": "minecraft:enchanted_hit",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 2
+	},
+	"mf_carnival:justice": {
+		"text_color": "#48dbd1",
+		"glow_color": "#fff596",
+		"collect_particle": "minecraft:enchanted_hit",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 2
+	},
+	"mf_carnival:strength": {
+		"text_color": "#48dbd1",
+		"glow_color": "#fff596",
+		"collect_particle": "minecraft:enchanted_hit",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 2
+	},
+	"mf_carnival:fool": {
+		"text_color": "#5f57ff",
+		"glow_color": "#bafffa",
+		"collect_particle": "minecraft:wax_off",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 3
+	},
+	"mf_carnival:magician": {
+		"text_color": "#5f57ff",
+		"glow_color": "#bafffa",
+		"collect_particle": "minecraft:wax_off",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 3
+	},
+	"mf_carnival:hermit": {
+		"text_color": "#5f57ff",
+		"glow_color": "#bafffa",
+		"collect_particle": "minecraft:wax_off",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 3
+	},
+	"mf_carnival:star": {
+		"text_color": "#5f57ff",
+		"glow_color": "#bafffa",
+		"collect_particle": "minecraft:wax_off",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 3
+	},
+	"mf_carnival:fortune": {
+		"text_color": "#5f57ff",
+		"glow_color": "#bafffa",
+		"collect_particle": "minecraft:wax_off",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 3
+	},
+	"mf_carnival:tower": {
+		"text_color": "#5f57ff",
+		"glow_color": "#bafffa",
+		"collect_particle": "minecraft:wax_off",
+		"collect_sound": {
+			"sound_id": "scattered_shards:collect_challenge"
+		},
+		"list_order": 3
+	}
+}
