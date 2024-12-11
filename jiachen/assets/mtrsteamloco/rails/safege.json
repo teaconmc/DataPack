@@ -1,0 +1,11 @@
+{
+	"safege_regular": {
+		"name": "SAFEGE Monorail",
+        "model": "mtrsteamloco:rails/safege/rails_regular.obj",
+		"repeatInterval": 2,
+        "yOffset": 4,
+        "scale": [ 0.7, 1, 1 ],
+        "translation": [ 0, 0.2, 0 ],
+		"flipV": true
+    }
+}

@@ -1,0 +1,19 @@
+[road]
+	#Additional speed added per tick for roads
+	#Range: 0.0 ~ 10.0
+	roadSpeedAddtion = 0.175
+
+[recipe]
+	#Loaf dough cooking time
+	#Range: > 1
+	loafCookingTime = 1200
+	#Loaf dough maximum stacking height in blocks
+	#Range: > 1
+	maxLoafStackingHeight = 6
+
+[misc]
+	#Compress output from codecs when sending by network to improve performance.
+	#May cause problems if some client install mods that may modify vanilla codecs but such mods are not present on server such as Sinytra.
+	#Installing such mods on both client and server is fine.
+	#If you meet network exception with some client-only mods, try turning off this
+	compressCodecOutput = true

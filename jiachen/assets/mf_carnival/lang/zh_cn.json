@@ -1,0 +1,12 @@
+{
+  "shard_type.mf_carnival.world.description": "「世界」卡片",
+  "shard_type.mf_carnival.temperance.description": "「节制」卡片",
+  "shard_type.mf_carnival.justice.description": "「正义」卡片",
+  "shard_type.mf_carnival.strength.description": "「力量」卡片",
+  "shard_type.mf_carnival.fool.description": "「愚者」卡片",
+  "shard_type.mf_carnival.magician.description": "「魔术师」卡片",
+  "shard_type.mf_carnival.hermit.description": "「隐者」卡片",
+  "shard_type.mf_carnival.star.description": "「星星」卡片",
+  "shard_type.mf_carnival.fortune.description": "「命运之轮」卡片",
+  "shard_type.mf_carnival.tower.description": "「高塔」卡片"
+}
