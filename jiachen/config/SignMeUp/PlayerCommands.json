@@ -33,46 +33,6 @@
       "commands": [
         "/kill @s"
       ]
-    },
-    {
-      "title": "test1",
-      "tooltip": "",
-      "commands": []
-    },
-    {
-      "title": "test2",
-      "tooltip": "",
-      "commands": []
-    },
-    {
-      "title": "test3",
-      "tooltip": "",
-      "commands": []
-    },
-    {
-      "title": "test4",
-      "tooltip": "",
-      "commands": []
-    },
-    {
-      "title": "test5",
-      "tooltip": "",
-      "commands": []
-    },
-    {
-      "title": "test6",
-      "tooltip": "",
-      "commands": []
-    },
-    {
-      "title": "test7",
-      "tooltip": "",
-      "commands": []
-    },
-    {
-      "title": "test8",
-      "tooltip": "",
-      "commands": []
     }
   ]
 }
