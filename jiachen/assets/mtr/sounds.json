@@ -14,6 +14,6 @@
     "onix152_motor7":{ "sounds": [{ "name": "mtr:onix152/motor7", "attenuation_distance": 32 }] },
     "onix152_point":{ "sounds": [{ "name": "mtr:onix152/point", "attenuation_distance": 32 }] },
     "onix152_rub":{ "sounds": [{ "name": "mtr:onix152/rub", "attenuation_distance": 32 }] },
-    "onix152_run":{ "sounds": [{ "name": "mtr:onix152/run", "attenuation_distance": 32 }] }
+    "onix152_run":{ "sounds": [{ "name": "mtr:onix152/run", "attenuation_distance": 32 }] },
     "familymart":{ "sounds": [{ "name": "mtr:familymart", "attenuation_distance": 32 }] }
 }
