@@ -1,0 +1,13 @@
+#The nestle value get from different world or far away.
+far_away_nestle_value = 1
+#The nestle value to minus if damage player and the value to add if nestle player
+damage_apportion_require = 360000
+#The nestle value to nestle freely
+nestle_free_require = 720000
+#The radius to nestle
+nestle_radius = 5
+#The nestle value get if in the distance
+#Format: distance:nestle_value
+nestle_values = ["5:200", "50:100", "500:50", "5000:10"]
+#The entities not to spread damage if no any buff
+entities_not_spread_damage_by_default = ["minecraft:player"]

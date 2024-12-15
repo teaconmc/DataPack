@@ -1,17 +1,154 @@
 {
-    "onix152_airhigh":{ "sounds": [{ "name": "mtr:onix152/airhigh", "attenuation_distance": 32 }] },
-    "onix152_airzero":{ "sounds": [{ "name": "mtr:onix152/airzero", "attenuation_distance": 32 }] },
-    "onix152_loop":{ "sounds": [{ "name": "mtr:onix152/loop", "attenuation_distance": 32 }] },
-    "onix152_motor0":{ "sounds": [{ "name": "mtr:onix152/motor0", "attenuation_distance": 32 }] },
-    "onix152_motor1":{ "sounds": [{ "name": "mtr:onix152/motor1", "attenuation_distance": 32 }] },
-    "onix152_motor2":{ "sounds": [{ "name": "mtr:onix152/motor2", "attenuation_distance": 32 }] },
-    "onix152_motor3":{ "sounds": [{ "name": "mtr:onix152/motor3", "attenuation_distance": 32 }] },
-    "onix152_motor4":{ "sounds": [{ "name": "mtr:onix152/motor4", "attenuation_distance": 32 }] },
-    "onix152_motor5":{ "sounds": [{ "name": "mtr:onix152/motor5", "attenuation_distance": 32 }] },
-    "onix152_motor6":{ "sounds": [{ "name": "mtr:onix152/motor6", "attenuation_distance": 32 }] },
-    "onix152_point":{ "sounds": [{ "name": "mtr:onix152/point", "attenuation_distance": 32 }] },
-    "onix152_run":{ "sounds": [{ "name": "mtr:onix152/run", "attenuation_distance": 32 }] },
-    "onix152_doorcls":{ "sounds": [{ "name": "mtr:onix152/doorcls", "attenuation_distance": 32 }] },
-    "onix152_dooropn":{ "sounds": [{ "name": "mtr:onix152/dooropn", "attenuation_distance": 32 }] },
-    "onix152_rub":{ "sounds": [{ "name": "mtr:onix152/rub", "attenuation_distance": 32 }] }
+	"onix152_airhigh": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/airhigh",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_airzero": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/airzero",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_doorcls": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/doorcls",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_dooropn": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/dooropn",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_loop": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/loop",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_motor0": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/motor0",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_motor1": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/motor1",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_motor2": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/motor2",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_motor3": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/motor3",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_motor4": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/motor4",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_motor5": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/motor5",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_motor6": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/motor6",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_motor7": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/motor7",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_point": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/point",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_rub": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/rub",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"onix152_run": {
+		"sounds": [
+			{
+				"name": "mtr:onix152/run",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"familymart": {
+		"sounds": [
+			{
+				"name": "mtr:familymart",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"door_cls_ann": {
+		"sounds": [
+			{
+				"name": "mtr:door_close_ann",
+				"attenuation_distance": 32
+			}
+		]
+	},
+	"door_open_bell": {
+		"sounds": [
+			{
+				"name": "mtr:door_open_bell",
+				"attenuation_distance": 32
+			}
+		]
+	}
 }

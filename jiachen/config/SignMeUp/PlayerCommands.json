@@ -1,0 +1,38 @@
+{
+  "playerCommands": [
+    {
+      "title": "清空背包",
+      "tooltip": "清空自身背包里的所有物品",
+      "commands": [
+        "/clear @s"
+      ]
+    },
+    {
+      "title": "清空状态效果",
+      "tooltip": "清空当前身上所有生效的状态效果",
+      "commands": [
+        "/effect clear @s"
+      ]
+    },
+    {
+      "title": "恢复所有状态",
+      "tooltip": "回复自身血量、饥饿值、和经验等级",
+      "commands": [
+        "/effect clear @s",
+        "/effect give @s minecraft:saturation 3 50 true",
+        "/effect give @s minecraft:regeneration 3 50 true",
+        "/experience add @s -2147483648 points",
+        "/experience set @s 2025 levels",
+        "/experience add @s 9020 points",
+        "/tellraw @s [\"已恢复 \",{\"selector\":\"@s\"},\" 的血量、饥饿值、和经验等级\"]"
+      ]
+    },
+    {
+      "title": "紧急脱困",
+      "tooltip": "把你的生命值设为零，大概会导致你回到重生点",
+      "commands": [
+        "/kill @s"
+      ]
+    }
+  ]
+}
