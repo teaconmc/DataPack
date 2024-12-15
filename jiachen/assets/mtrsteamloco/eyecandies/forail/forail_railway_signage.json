@@ -1,0 +1,12 @@
+{
+	"forail_ohl_end_sign_1_pole": {
+		"name": "§2§o[FoRail]§r Railway Sign - Overhead line end 1 (Pole)",
+		"model": "mtrsteamloco:eyecandies/forail/fr_railway_signage/ohl_end_1_pole.obj",
+		"flipV": true
+	},
+	"forail_ohl_end_sign_1_twall": {
+		"name": "§2§o[FoRail]§r Railway Sign - Overhead line end 1 (Thick Wall)",
+		"model": "mtrsteamloco:eyecandies/forail/fr_railway_signage/ohl_end_1_twall.obj",
+		"flipV": true
+	}
+}
