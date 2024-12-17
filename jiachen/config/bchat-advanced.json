@@ -1,0 +1,8 @@
+{
+  "stopWords": [],
+  "blockUsers": [],
+  "regExp": [],
+  "chatRegCustomized": "^(?<sender>\\w{3,16})：(?<msg>.*$)",
+  "tellRegCustomized": "^(?<sender>\\w{3,16})悄悄地对你说：(?<msg>.*$)",
+  "ignoredMsgReg": ""
+}
