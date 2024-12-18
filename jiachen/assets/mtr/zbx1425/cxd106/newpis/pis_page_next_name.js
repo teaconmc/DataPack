@@ -54,17 +54,3 @@ function paintDestinationText(g, stations, nextIndex, dark) {
     g.drawString(idStr, 20 - g.getFontMetrics().stringWidth(idStr) / 2, 24);
   }
 }
-
-function paintNextStationArrowAnim(g) {
-  var composite = g.getComposite();
-  var alphaProgress = Timing.elapsed() % 2 / 2;
-  var alpha1 = alphaProgress > 1/2 ? 0 : (1 - Math.abs(alphaProgress * 4 - 1));
-  alphaProgress = (alphaProgress + 3/4) % 1;
-  var alpha2 = alphaProgress > 1/2 ? 0 : (1 - Math.abs(alphaProgress * 4 - 1));
-  g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha1));
-  g.drawImage(pisAtlas, 0, 30, 20, 30+40, 0, 137, 20, 137+40, null);
-  g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha2));
-  g.drawImage(pisAtlas, 20, 30, 38, 30+40, 20, 137, 38, 137+40, null);
-  g.setComposite(composite);
-  g.drawImage(pisAtlas, 38, 30, 58, 30+40, 38, 137, 58, 137+40, null);
-}
