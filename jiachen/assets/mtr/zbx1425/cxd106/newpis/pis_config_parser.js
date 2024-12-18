@@ -2,6 +2,7 @@ function getStationConfig(stations, nextIndex) {
   let result = Object.assign({}, pisConfig["default"]);
   if (nextIndex >= stations.size() || nextIndex < 0) return result;
   
+  result["raw"] = stations.get(nextIndex);
   let exitStr = "";
   for (let it = stations.get(nextIndex).station.exits.entrySet().iterator(); it.hasNext(); ) {
     let entry = it.next();

@@ -1,23 +1,25 @@
 include("models.js");
 include("particles.js");
-include("pis/pis.js");
-include("sound.js");
+include("newpis/pis.js");
+// include("sound.js");
 
-include("pis_config.js");
+include("../cx_pis_cfg.js");
 
 function createTrain(ctx, state, train) {
   state.particleRateLimit = new RateLimit(0.1);
-  /* 
   state.pisRateLimit = new RateLimit(0.05);
+  state.dh = dhBase.create();
+  setupPisTexture(state, state.dh.texture);
+  /* 
   state.pisTexture = createPisTexture(state);
   state.bodyModel = models["body"].copyForMaterialChanges();
   state.bodyModel.replaceTexture("pis_placeholder.png", state.pisTexture.identifier); */
   state.bodyModel = models["body"];
-  setupSounds(ctx, state);
+  // setupSounds(ctx, state);
 }
 
 function disposeTrain(ctx, state, train) {
-  // state.pisTexture.close();
+  state.dh.close();
 }
 
 function renderTrain(ctx, state, train) {
@@ -33,7 +35,7 @@ function renderTrain(ctx, state, train) {
   */
 
   if (state.particleRateLimit.shouldUpdate()) {
-    playAnn(ctx, state, train);
+    // playAnn(ctx, state, train);
   }
   trainInAir = false;
   /* state.wheelAngle = (state.wheelAngle + (train.isReversed() ? -1 : 1) 
@@ -43,10 +45,11 @@ function renderTrain(ctx, state, train) {
     renderTrainParticles(ctx, state, train, trainInAir);
     playAnn(ctx, state, train);
   }
-  if (state.pisRateLimit.shouldUpdate()) {
-    updatePisTexture(state.pisTexture, state, train);
-  }
+  
   */
+  if (state.pisRateLimit.shouldUpdate()) {
+    updatePisTexture(ctx, state.dh.texture, state, train);
+  }
 
   for (i = 0; i < train.trainCars(); i++) {
     matrices.pushPose();
@@ -100,6 +103,8 @@ function renderTrain(ctx, state, train) {
     matrices.translate(0, 0, 2 * doorXP);
     ctx.drawCarModel(models["doorXPZP"], i, matrices);
     matrices.popPose();
+
+    ctx.drawCarModel(state.dh.model, i, null);
   }
 
   for (i = 0; i < train.trainCars() - 1; i++) {
