@@ -1,5 +1,15 @@
 function getStationConfig(stations, nextIndex) {
   let result = Object.assign({}, pisConfig["default"]);
+  if (stations.size() < 2) {
+    // Fill in some dummy info for testing
+    result["routeCode"] = "isl";
+    result["staCode"] = "cab";
+    result["routeStaCode"] = "isl_cab";
+    result["staName"] = "銅鑼灣|Causeway Bay";
+    result["routeName"] = "港島綫|Island Line";
+    result["destName"] = "堅尼地城|Kennedy Town";
+    return result;
+  }
   if (nextIndex >= stations.size() || nextIndex < 0) return result;
   
   result["raw"] = stations.get(nextIndex);
