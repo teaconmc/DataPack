@@ -8,7 +8,7 @@ function paintPisTopInfo(g, state, train) {
   let isCjk = state.pageCycle.stateNow() == "cjk";
 
   // Route Color Triangle
-  let routeColorPackedArgb = staCfg["raw"].route.color;
+  let routeColorPackedArgb = !!staCfg["raw"] ? staCfg["raw"].route.color : 0xFF1357BB;
   let routeColor = new Color(((routeColorPackedArgb >> 16) & 0xFF) / 0xFF, ((routeColorPackedArgb >> 8) & 0xFF) / 0xFF, (routeColorPackedArgb & 0xFF) / 0xFF);
   let routeColorHsv = Color.RGBtoHSB(routeColor.getRed(), routeColor.getGreen(), routeColor.getBlue(), null);
   routeColorHsv[1] = 0.64;
@@ -25,7 +25,7 @@ function paintPisTopInfo(g, state, train) {
   paintTextWrapable(g, stationName, 166, 36, 174, 36, 18);
 
   // Next / Arriving
-  if (state.infoType == "enroute") {
+  if (state.posPhase.stateNow() == "rte" || state.posPhase.stateNow() == "dpt") {
     paintTextL(g, isCjk ? "下一站" : "Next Station", 74, 12, 10);
   } else {
     paintTextL(g, isCjk ? "列车到达" : "This is", 74, 12, 10);
@@ -40,15 +40,19 @@ function paintPisTopInfo(g, state, train) {
   // Line Name
   let lineName = isCjk 
     ? spaceCjkChars(TextUtil.getCjkParts(staCfg.routeName)) 
-    : TextUtil.getNonCjkParts(staCfg.routeName);
+    : TextUtil.getNonCjkParts(staCfg.routeName.replace("Line", "Ln"));
   g.setFont(sansFont.deriveFont(Font.BOLD, 10));
   let lineNameWidth = g.getFontMetrics().stringWidth(lineName);
-  g.fillRoundRect(30 - lineNameWidth / 2 - 2, 3, lineNameWidth + 5, 12, 4, 4);
+  g.fillRoundRect(30 - lineNameWidth / 2 - 2, isCjk ? 3 : 46, lineNameWidth + 5, 12, 4, 4);
   g.setColor(adjustedRouteColor);
-  g.drawString(lineName, 30 - lineNameWidth / 2, 13);
+  g.drawString(lineName, 30 - lineNameWidth / 2, isCjk ? 13 : 56);
   g.setColor(Color.WHITE);
 
-  paintTextR(g, isCjk ? "方向" : "Dir.", 58, 56, 10);
+  if (isCjk) {
+    paintTextR(g, "方向", 58, 56, 10);
+  } else {
+    paintTextL(g, "For", 4, 13, 10);
+  }
 
   // Destination Name
   let destinationName = isCjk 
