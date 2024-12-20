@@ -16,3 +16,5 @@ dimension = "minecraft:overworld"
 # TODO 把内部文档整理出来并公开
 [properties]
 trample_farmland = "false"
+possess.minecraft:elytra = "false"
+possess.minecraft:chorus_fruit = "false"
