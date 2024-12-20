@@ -1,0 +1,13 @@
+uid = "00000000-0000-0000-0000-000000000000"
+builders = []
+builderGroups = []
+ownerGroups = []
+min = [-30000000, -256, -30000000]
+max = [30000000, 320, 30000000]
+name = "TeaCon 甲辰"
+owners = []
+dimension = "minecraft:overworld"
+# 以上所有信息都不使用。
+# 本文件中真正有用的就下面这个。
+[properties]
+trample_farmland = "false"
