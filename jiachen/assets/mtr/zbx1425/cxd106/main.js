@@ -3,7 +3,7 @@ include("particles.js");
 include("newpis/pis.js");
 // include("sound.js");
 
-include("../cx_pis_cfg.js");
+include("tcjc_pis_cfg.js");
 
 function createTrain(ctx, state, train) {
   state.particleRateLimit = new RateLimit(0.1);
@@ -47,7 +47,7 @@ function renderTrain(ctx, state, train) {
   }
   
   */
-  if (state.pisRateLimit.shouldUpdate()) {
+  if (state.pisRateLimit.shouldUpdate() || train.doorValue() > 0) {
     updatePisTexture(ctx, state.dh.texture, state, train);
   }
 

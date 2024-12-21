@@ -11,6 +11,8 @@ function setupPisTexture(state, pisTexture) {
   state.posPhase = new StateTracker();
 }
 
+include("ann.js");
+
 function updatePisTexture(ctx, texture, state, train) {
   let g = texture.graphics;
   let transform = g.getTransform();
@@ -56,6 +58,9 @@ function updatePisTexture(ctx, texture, state, train) {
         state.doorFullyOpened = false;
         if (state.posPhase.stateNow() == "rte" || state.posPhase.stateNow() == null) {
           state.posPhase.setState("appr");
+        } else {
+          state.posPhase.setState(state.posPhase.stateNow()); 
+          // So that it doesn't keep being in stateNowFirst
         }
       }
     } else {
@@ -78,6 +83,8 @@ function updatePisTexture(ctx, texture, state, train) {
 
   g.setTransform(transform);
   texture.upload();
+
+  playAnn(ctx, state, train);
 }
 
 include("pis_common.js");
@@ -113,5 +120,13 @@ function paintPisSideScreen(g, state, train, side) {
 
   g.setClip(null);
   g.setTransform(transform);
+
+  // g.setColor(Color.RED);
+  // g.fillRect(0, 0, 64, 64);
+  // g.setColor(Color.GREEN);
+  // g.fillRect(64, 0, 64, 64);
+  // g.setColor(Color.BLUE);
+  // g.fillRect(128, 0, 64, 64);
+
   return;
 }

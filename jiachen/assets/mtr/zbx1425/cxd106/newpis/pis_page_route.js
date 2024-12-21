@@ -123,7 +123,7 @@ function paintPisRoute(g, state, train, side) {
   }
 
   if (state.posPhase.stateNow() == "appr") {
-    let thisDoorOpen = state.doorOpen[side == 1 ? 1 : 0];
+    let thisDoorOpen = state.doorOpen[side == 1 ? 0 : 1]; // Mmm inverted somewhere
     // Door direction
     g.setColor(thisDoorOpen ? new Color(0, 0x83 / 255, 0x4f / 255) : new Color(0x4f / 255, 0, 0));
     g.fillRect(0, 128 - 20, 256, 20);
