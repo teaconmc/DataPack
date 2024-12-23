@@ -1,0 +1,6 @@
+{
+  "name": "三灯信号机 (支柱) (灭灯)",
+  "model": "mtrsteamloco:eyecandies/signal/signal_light_3_pole.obj",
+  "translation": [0, -0.5, 0],
+  "flipV": true
+}

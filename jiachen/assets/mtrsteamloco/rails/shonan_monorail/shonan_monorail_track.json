@@ -1,0 +1,9 @@
+{
+    "shonan_monorail_track_1": {
+        "name": "湘南单轨轨道|Shonan Monorail Rail",
+        "model": "mtrsteamloco:rails/shonan_monorail/track_1.obj",
+        "repeatInterval": 2.0,
+        "flipV": true,
+        "yOffset": 4
+    }
+}

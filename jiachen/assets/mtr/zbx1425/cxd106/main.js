@@ -1,22 +1,25 @@
 include("models.js");
 include("particles.js");
-include("pis/pis.js");
-include("sound.js");
+include("newpis/pis.js");
+// include("sound.js");
 
-include("pis_config.js");
+include("tcjc_pis_cfg.js");
 
 function createTrain(ctx, state, train) {
   state.particleRateLimit = new RateLimit(0.1);
   state.pisRateLimit = new RateLimit(0.05);
+  state.dh = dhBase.create();
+  setupPisTexture(state, state.dh.texture);
+  /* 
   state.pisTexture = createPisTexture(state);
   state.bodyModel = models["body"].copyForMaterialChanges();
-  state.bodyModel.replaceTexture("pis_placeholder.png", state.pisTexture.identifier);
-  setupSounds(ctx, state);
-  state.wheelAngle = 0;
+  state.bodyModel.replaceTexture("pis_placeholder.png", state.pisTexture.identifier); */
+  state.bodyModel = models["body"];
+  // setupSounds(ctx, state);
 }
 
 function disposeTrain(ctx, state, train) {
-  state.pisTexture.close();
+  state.dh.close();
 }
 
 function renderTrain(ctx, state, train) {
@@ -31,18 +34,21 @@ function renderTrain(ctx, state, train) {
   matrices.popPose();
   */
 
-  fwdRail = train.path().get(train.getRailIndex(train.getRailProgress(0), true)).rail;
-  bwdRail = train.path().get(train.getRailIndex(train.getRailProgress(train.trainCars()), false)).rail;
-  trainInAir = fwdRail.getModelKey() == "null" || bwdRail.getModelKey() == "null";
-  state.wheelAngle = (state.wheelAngle + (train.isReversed() ? -1 : 1) 
+  if (state.particleRateLimit.shouldUpdate()) {
+    // playAnn(ctx, state, train);
+  }
+  trainInAir = false;
+  /* state.wheelAngle = (state.wheelAngle + (train.isReversed() ? -1 : 1) 
     * (train.speed() * 20.0 * Timing.delta()) / 1.09) % (Math.PI * 2);
 
   if (state.particleRateLimit.shouldUpdate()) {
     renderTrainParticles(ctx, state, train, trainInAir);
     playAnn(ctx, state, train);
   }
-  if (state.pisRateLimit.shouldUpdate()) {
-    updatePisTexture(state.pisTexture, state, train);
+  
+  */
+  if (state.pisRateLimit.shouldUpdate() || train.doorValue() > 0) {
+    updatePisTexture(ctx, state.dh.texture, state, train);
   }
 
   for (i = 0; i < train.trainCars(); i++) {
@@ -97,6 +103,8 @@ function renderTrain(ctx, state, train) {
     matrices.translate(0, 0, 2 * doorXP);
     ctx.drawCarModel(models["doorXPZP"], i, matrices);
     matrices.popPose();
+
+    ctx.drawCarModel(state.dh.model, i, null);
   }
 
   for (i = 0; i < train.trainCars() - 1; i++) {
@@ -116,25 +124,25 @@ function renderBogie(ctx, state, matrices, i, trainInAir, isCar) {
     ctx.drawConnModel(modelBogieToUse, i, matrices);
   }
 
-  matrices.pushPose();
-  matrices.translate(0, 1.3723, 1);
-  matrices.rotateX(state.wheelAngle);
-  if (isCar) {
-    ctx.drawCarModel(modelBogieWheel, i, matrices);
-  } else {
-    ctx.drawConnModel(modelBogieWheel, i, matrices);
-  }
-  matrices.popPose();
+  //matrices.pushPose();
+  //matrices.translate(0, 1.3723, 1);
+  //matrices.rotateX(state.wheelAngle);
+  //if (isCar) {
+  //  ctx.drawCarModel(modelBogieWheel, i, matrices);
+  //} else {
+  //  ctx.drawConnModel(modelBogieWheel, i, matrices);
+  //}
+  //matrices.popPose();
 
-  matrices.pushPose();
-  matrices.translate(0, 1.3723, -1);
-  matrices.rotateX(state.wheelAngle);
-  if (isCar) {
-    ctx.drawCarModel(modelBogieWheel, i, matrices);
-  } else {
-    ctx.drawConnModel(modelBogieWheel, i, matrices);
-  }
-  matrices.popPose();
+  //matrices.pushPose();
+  //matrices.translate(0, 1.3723, -1);
+  //matrices.rotateX(state.wheelAngle);
+  //if (isCar) {
+  //  ctx.drawCarModel(modelBogieWheel, i, matrices);
+  //} else {
+  //  ctx.drawConnModel(modelBogieWheel, i, matrices);
+  //}
+  //matrices.popPose();
 }
 
 function smoothEnds(startValue, endValue, startTime, endTime, time) {
