@@ -1,0 +1,273 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brick",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "sheaf_pottery_sherd",
+            "weight": 30,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "prize_pottery_sherd",
+            "weight": 30,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brewer_pottery_sherd",
+            "weight": 30,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:wooden_spear",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:stone_spear",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:linen",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:glass_jar",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:beeswax",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:red_candle",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:candle",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ashihara:dirt_ball",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ashihara:stone_shatter",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ashihara:iron_ore_shatter",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ashihara:dried_bamboo",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "youkaishomecoming:mandrake_root",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "youkaishomecoming:dried_mandrake_flower",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:fallen_relic_defensive",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:blue_topaz_gem",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "姬川岛",
+                    "type": "text",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
