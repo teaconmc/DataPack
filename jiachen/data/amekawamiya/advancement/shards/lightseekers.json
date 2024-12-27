@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock": {
+      "conditions": {
+        "predicate": {
+          "amount": 1
+        }
+      },
+      "trigger": "thatskyinteractions:pickup_permanent"
+    }
+  },
+  "requirements": [
+    [ "unlock" ]
+  ],
+  "rewards": {
+    "function": "amekawamiya:shards/lightseekers"
+  }
+}
