@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "unlock": {
+      "conditions": {
+        "predicate": {
+          "node": "root"
+        }
+      },
+      "trigger": "thatskyinteractions:unlock_relationship"
+    }
+  },
+  "requirements": [
+    [ "unlock" ]
+  ],
+  "rewards": {
+    "function": "amekawamiya:shards/attachment"
+  }
+}
