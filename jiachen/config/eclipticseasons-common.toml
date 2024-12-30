@@ -1,6 +1,6 @@
 [Temperature]
-	#Ice or snow layer will melt in warm place..
-	IceAndSnowMelt = true
+	#Ice or snow layer will melt in warm place.
+	IceAndSnowMelt = false
 	#Add heat stroke effect in summer noon while in hot biome.
 	HeatStroke = false
 
@@ -11,10 +11,18 @@
 	#The index of the initial solar term.
 	#Range: 1 ~ 24
 	InitialSolarTermIndex = 1
-	#Enable seasonal crop.
-	EnableSeasonalCrop = true
 	#Enable solar term change inform.
 	EnableInform = true
+
+[Debug]
+	#Enable debug option to detect illegal use of functions.
+	Debug = false
+	#Without snowy block under the light blocks which level is 0.
+	NotSnowyUnderLight0 = true
+
+[Weather]
+	#Enable solar term weather system with biome.
+	UseSolarWeather = true
 	#Set the percentage multiplier of the probability of rain, the range should be between 0 and 1000.
 	#Range: 0 ~ 1000
 	RainChancePercentMultiplier = 5
@@ -22,10 +30,19 @@
 	#Range: 0 ~ 1000
 	ThunderChancePercentMultiplier = 0
 
-[Debug]
-	#Enable debug option to detect illegal use of functions.
-	Debug = false
-	#Enable solar term weather system.
-	UseSolarWeather = true
-	#Without snowy block under the light blocks which level is 0.
-	NotSnowyUnderLight = true
+[Crop]
+	#Enable crop season control.
+	EnableSeasonalCrop = true
+	#How much chance can crop grow in wrong season.
+	#Range: 0.0 ~ 1.0
+	CropGrowChanceInWrongSeason = 0.25
+	#Enable crop humidity control.
+	EnableCropHumidityControl = true
+
+[Animal]
+	#Enable seasonal animal breed.
+	EnableSeasonalBreed = false
+	#Enable seasonal bee behavior, bee would like spring and not like winter and cold.
+	EnableSeasonalBee = false
+	#Enable seasonal fishing behavior, let enjoy summer.
+	EnableSeasonalFishing = false

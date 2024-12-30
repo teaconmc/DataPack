@@ -1,0 +1,18 @@
+# Blender 4.2.2 LTS MTL File: 'Integrated Bake 2 Go.blend'
+# www.blender.org
+
+newmtl bogie
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 0.500000
+Pm 0.250000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd bogie.png

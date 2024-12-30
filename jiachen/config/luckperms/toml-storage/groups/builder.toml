@@ -32,10 +32,17 @@ permission = "worldedit.*"
 value = true
 
 [[permissions]]
+permission = "command.tp"
+value = true
+
+[[permissions]]
 permission = "command.tp.*"
+value = true
+
+[[permissions]]
+permission = "command.gamemode"
 value = true
 
 [[permissions]]
 permission = "command.gamemode.*"
 value = true
-

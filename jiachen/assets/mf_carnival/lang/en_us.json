@@ -1,0 +1,12 @@
+{
+  "shard_type.mf_carnival.world.description": "World Shard",
+  "shard_type.mf_carnival.temperance.description": "Temperance Shard",
+  "shard_type.mf_carnival.justice.description": "Justice Shard",
+  "shard_type.mf_carnival.strength.description": "Strength Shard",
+  "shard_type.mf_carnival.fool.description": "Fool Shard",
+  "shard_type.mf_carnival.magician.description": "Magician Shard",
+  "shard_type.mf_carnival.hermit.description": "Hermit Shard",
+  "shard_type.mf_carnival.star.description": "Star Shard",
+  "shard_type.mf_carnival.fortune.description": "Wheel of Fortune Shard",
+  "shard_type.mf_carnival.tower.description": "Tower Shard"
+}

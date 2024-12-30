@@ -1,0 +1,12 @@
+{
+    "neomtr_ohl_support_1_pull": {
+        "name": "NeoMTR Overhead Line support 1 [pull]",
+        "model": "mtrsteamloco:eyecandies/ohl_support/ohl_support_1_pull.obj",
+        "flipV": true
+    },
+    "neomtr_ohl_support_1_push": {
+        "name": "NeoMTR Overhead Line support 1 [push]",
+        "model": "mtrsteamloco:eyecandies/ohl_support/ohl_support_1_push.obj",
+        "flipV": true
+    }
+}

@@ -1,0 +1,22 @@
+# Blender 3.5.0 MTL File: 's_train_cab.blend'
+# www.blender.org
+
+newmtl s_train#interior
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd s_train_cyanex_blue.png
+map_d s_train_cyanex_blue.png
+
+newmtl seat#interior
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.017928 0.012945 0.292946
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2

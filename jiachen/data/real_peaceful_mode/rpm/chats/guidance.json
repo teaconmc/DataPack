@@ -1,0 +1,35 @@
+{
+  "entity_type": "touhou_little_maid:maid",
+  "trigger_anyway": false,
+  "requires": [
+  ],
+  "message": {
+    "type": "real_peaceful_mode:selectable",
+    "key": "rpm.chat.real_peaceful_mode.guidance.message1",
+    "speaker": "npc",
+    "selection": [
+      {
+        "condition": {
+          "type": "real_peaceful_mode:name",
+          "name": "Guidance"
+        },
+        "key": "rpm.chat.real_peaceful_mode.guidance.selection.about_building",
+        "next": {
+          "type": "real_peaceful_mode:plain",
+          "key": "rpm.chat.real_peaceful_mode.guidance.about_building.message1",
+          "speaker": "npc",
+          "next": {
+            "type": "real_peaceful_mode:plain",
+            "key": "rpm.chat.real_peaceful_mode.guidance.about_building.message2",
+            "speaker": "npc",
+            "next": {
+              "type": "real_peaceful_mode:end",
+              "key": "rpm.chat.real_peaceful_mode.guidance.about_building.message3",
+              "speaker": "npc"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

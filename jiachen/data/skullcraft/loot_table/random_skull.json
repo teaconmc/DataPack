@@ -1,0 +1,261 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:villager_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:illager_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:witch_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:iron_golem_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:zombie_villager_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:slime_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:lavaslime_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:blaze_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:spider_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:cave_spider_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:pig_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:vex_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_ashen_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_black_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_chestnut_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_rusty_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_snowy_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_spotted_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_striped_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:wolf_woods_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_ashen_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_black_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_chestnut_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_rusty_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_snowy_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_spotted_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_striped_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:angry_wolf_woods_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:enderman_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:snow_golem_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:technoblade_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:allay_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:sheep_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:bat_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:shulker_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:cow_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:red_mooshroom_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:brown_mooshroom_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:piglin_brute_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:zombified_piglin_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:black_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:brown_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:chestnut_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:creamy_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:darkbrown_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:gray_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:white_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:donkey_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:mule_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:skeleton_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:zombie_horse_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:warden_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:hoglin_head",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skullcraft:zoglin_head",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Schwebebahn Support",
+    "model": "mtrsteamloco:wsw/schwebe_support.obj",
+    "repeatInterval": 4.0,
+    "yOffset": 4
+}

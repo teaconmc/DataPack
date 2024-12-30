@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "MUA 成员"
+  },
+  "selector": "@a[mua=*]",
+  "participations": [
+    {
+      "category": "teacon:summary",
+      "weight": 1.0
+    }
+  ]
+}

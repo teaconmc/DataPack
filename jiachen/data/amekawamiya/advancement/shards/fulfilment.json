@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "thatskyinteractions:completed_relationship"
+    }
+  },
+  "requirements": [
+    [ "unlock" ]
+  ],
+  "rewards": {
+    "function": "amekawamiya:shards/fulfilment"
+  }
+}

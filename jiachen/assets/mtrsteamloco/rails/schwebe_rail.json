@@ -1,0 +1,7 @@
+{
+    "name": "Schwebebahn Rail",
+    "model": "mtrsteamloco:wsw/schwebe_rail.obj",
+    "repeatInterval": 1.0,
+    "flipV": true,
+    "yOffset": 4
+}
