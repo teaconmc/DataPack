@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WRW",
+    "ABC",
+    "WRW"
+  ],
+  "key": {
+    "A": {
+      "item": "bsf:repulsion_core"
+    },
+    "B": {
+      "item": "bsf:expansion_snowball"
+    },
+    "C": {
+      "item": "bsf:gravity_core"
+    },
+    "R": {
+      "item": "minecraft:snow_block"
+    },
+    "W": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "id": "bsf:icicle_snowball",
+    "count": 1,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}
