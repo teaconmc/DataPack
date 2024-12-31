@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": null,
+  "key": null,
+  "result": {
+    "id": "bsf:explosive_player_tracking_snowball",
+    "count": 0,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smithing_transform",
+  "pattern": null,
+  "key": null,
+  "result": {
+    "id": "bsf:freezing_snowball_cannon",
+    "count": 0,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

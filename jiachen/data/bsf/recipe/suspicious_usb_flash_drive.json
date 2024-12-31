@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "SAS",
+    " F "
+  ],
+  "key": {
+    "A": {
+      "item": "bsf:suspicious_usb_flash_drive"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "F": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "S": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "bsf:suspicious_usb_flash_drive",
+    "count": 2,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}
