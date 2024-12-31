@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:cookie",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛收集品",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "kitchenkarrot:sweet_berry_tart",
+                "weight": 40,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛收集品",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "youkaishomecoming:sekibankiyaki",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛收集品",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "ashihara:dango_hanamie",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛收集品",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:gold_upgrade_smithing_template",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:anemone",
+                "weight": 1
+              }
+        ]
+      }
+    ]
+  }
