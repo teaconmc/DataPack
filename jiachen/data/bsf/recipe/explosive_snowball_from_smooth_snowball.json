@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WAW",
+    "WWW",
+    "WTW"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blaze_powder"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "W": {
+      "item": "bsf:smooth_snowball"
+    }
+  },
+  "result": {
+    "id": "bsf:explosive_snowball",
+    "count": 7,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

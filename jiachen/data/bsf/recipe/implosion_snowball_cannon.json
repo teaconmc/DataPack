@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCC",
+    "FDE"
+  ],
+  "key": {
+    "A": {
+      "item": "bsf:repulsion_core"
+    },
+    "B": {
+      "item": "minecraft:ice"
+    },
+    "C": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "F": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "bsf:implosion_snowball_cannon",
+    "count": 1,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}
