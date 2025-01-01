@@ -1,7 +1,10 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "pattern": null,
-  "key": null,
+  "ingredients": [
+    {
+      "item": "bsf:explosive_player_tracking_snowball"
+    }
+  ],
   "result": {
     "id": "bsf:explosive_monster_tracking_snowball",
     "count": 0,
