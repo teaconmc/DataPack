@@ -16,13 +16,13 @@ dimension = "minecraft:overworld"
 # TODO 把内部文档整理出来并公开
 [properties]
 trample_farmland = "false"
-"possess.minecraft:elytra" = false
-"possess.minecraft:chorus_fruit" = false
-"possess.anvilcraft:anvil_hammer" = false
-"possess.anvilcraft:royal_anvil_hammer" = false
-"possess.anvilcraft:ember_anvil_hammer" = false
-"possess.anvilcraft:resin_block" = false
-"possess.wenyan_nature:hand_runner_0" = false
-"possess.wenyan_nature:hand_runner" = false
-"possess.wenyan_nature:hand_runner_2" = false
-"possess.wenyan_nature:hand_runner_3" = false
+"possess.minecraft:elytra" = "false"
+"possess.minecraft:chorus_fruit" = "false"
+"possess.anvilcraft:anvil_hammer" = "false"
+"possess.anvilcraft:royal_anvil_hammer" = "false"
+"possess.anvilcraft:ember_anvil_hammer" = "false"
+"possess.anvilcraft:resin_block" = "false"
+"possess.wenyan_nature:hand_runner_0" = "false"
+"possess.wenyan_nature:hand_runner" = "false"
+"possess.wenyan_nature:hand_runner_2" = "false"
+"possess.wenyan_nature:hand_runner_3" = "false"
