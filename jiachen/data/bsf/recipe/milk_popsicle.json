@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "milk_popsicle",
+  "ingredients": [
+    {
+      "item": "bsf:popsicle"
+    },
+    {
+      "item": "bsf:popsicle"
+    },
+    {
+      "item": "bsf:popsicle"
+    },
+    {
+      "item": "bsf:popsicle"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "id": "bsf:milk_popsicle",
+    "count": 4,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

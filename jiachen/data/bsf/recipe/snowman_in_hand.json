@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WWR",
+    " VN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "bsf:smart_snow_block"
+    },
+    "V": {
+      "item": "minecraft:lever"
+    },
+    "W": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "id": "bsf:snowman_in_hand",
+    "count": 1,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "monster_tracking_snowball",
+  "ingredients": [
+    {
+      "item": "bsf:light_monster_tracking_snowball"
+    }
+  ],
+  "result": {
+    "id": "bsf:light_player_tracking_snowball",
+    "count": 0,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

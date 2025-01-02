@@ -1,0 +1,8 @@
+{
+  "stopWords": [],
+  "blockUsers": [],
+  "regExp": [],
+  "chatRegCustomized": "^\\[(?:\\p{IsEmoji_Presentation}|\\p{IsEmoji}\\ufe0f|[0-9#*]\\ufe0f\\u20e3|\\p{IsEmoji_Modifier_Base}\\p{IsEmoji_Modifier})\\]\\<(?<sender>\\w{3,16})(?: \\u27a6 \\w{3,16})?\\> (?<msg>.*)$",
+  "tellRegCustomized": "^\\[(?:\\p{IsEmoji_Presentation}|\\p{IsEmoji}\\ufe0f|[0-9#*]\\ufe0f\\u20e3|\\p{IsEmoji_Modifier_Base}\\p{IsEmoji_Modifier})\\]\\<(?<sender>\\w{3,16})(?: \\u27a6 \\w{3,16})?\\> (?<msg>.*)$",
+  "ignoredMsgReg": ""
+}

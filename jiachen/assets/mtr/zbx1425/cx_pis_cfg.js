@@ -1,8 +1,8 @@
 
 var pisConfig = {
   "default": {
-    "arriveDistance": 250,
-    "departDistance": 120,
+    "arriveDistance": 100,
+    "departDistance": 30,
     "door": "both",
     "tbOnPlat": false
   },

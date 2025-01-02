@@ -1,0 +1,10 @@
+#Icarus Wings Config File
+[config]
+	#Speed factor for Synapse Wings
+	#Range: 0.0 ~ 1.7976931348623157E308
+	wings_speed_mod = 0.9
+	#Transport card use permission level
+	#Range: 0 ~ 3
+	transport_card_permission_level = 3
+	#Does Demeter projectile change terrain
+	allow_demeter_change_terrain = false

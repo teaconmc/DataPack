@@ -1,0 +1,28 @@
+uid = "00000000-0000-0000-0000-000000000000"
+builders = []
+builderGroups = []
+ownerGroups = []
+min = [-30000000, -256, -30000000]
+max = [30000000, 320, 30000000]
+name = "TeaCon 甲辰"
+owners = []
+dimension = "minecraft:overworld"
+# 以上所有信息都不使用。
+# 本文件中真正有用的就下面这个。
+# 所有在本文件中声明的领地属性都会视作「野外」的全局属性。
+# 本文件中没声明的属性，则以配置文件里的全局属性为准。
+# 具体有哪些属性可用？请参考 https://github.com/teaconmc/AreaControl/blob/1.21-neoforge/src/main/java/org/teacon/areacontrol/api/AreaProperties.java
+# 如果你是茶馆员工，我们有更直观的内部文档可以参考。请去那里。
+# TODO 把内部文档整理出来并公开
+[properties]
+trample_farmland = "false"
+"possess.minecraft:elytra" = "false"
+"possess.minecraft:chorus_fruit" = "false"
+"possess.anvilcraft:anvil_hammer" = "false"
+"possess.anvilcraft:royal_anvil_hammer" = "false"
+"possess.anvilcraft:ember_anvil_hammer" = "false"
+"possess.anvilcraft:resin_block" = "false"
+"possess.wenyan_nature:hand_runner_0" = "false"
+"possess.wenyan_nature:hand_runner" = "false"
+"possess.wenyan_nature:hand_runner_2" = "false"
+"possess.wenyan_nature:hand_runner_3" = "false"

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "bsf:super_frozen_core"
+  },
+  "base": {
+    "item": "bsf:snowball_cannon"
+  },
+  "template": {
+    "item": "bsf:snowball_cannon_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "bsf:freezing_snowball_cannon",
+    "count": 0,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}
