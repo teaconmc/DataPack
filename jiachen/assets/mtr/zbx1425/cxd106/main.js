@@ -9,6 +9,8 @@ function createTrain(ctx, state, train) {
   state.particleRateLimit = new RateLimit(0.1);
   state.pisRateLimit = new RateLimit(0.05);
   state.dh = dhBase.create();
+  state.dhHeadDisp = dhHeadDispBase.create(state.dh.texture);
+  state.dhSideDisp = dhSideDispBase.create(state.dh.texture);
   setupPisTexture(state, state.dh.texture);
   /* 
   state.pisTexture = createPisTexture(state);
@@ -16,6 +18,7 @@ function createTrain(ctx, state, train) {
   state.bodyModel.replaceTexture("pis_placeholder.png", state.pisTexture.identifier); */
   state.bodyModel = models["body"];
   // setupSounds(ctx, state);
+  state.wheelAngle = 0;
 }
 
 function disposeTrain(ctx, state, train) {
@@ -34,8 +37,9 @@ function renderTrain(ctx, state, train) {
   matrices.popPose();
   */
 
-  if (state.particleRateLimit.shouldUpdate()) {
-    // playAnn(ctx, state, train);
+  if (monorailTypeLangen) {
+    state.wheelAngle = (state.wheelAngle + (train.isReversed() ? -1 : 1) 
+      * (train.speed() * 20.0 * Timing.delta()) / 1.09) % (Math.PI * 2);
   }
   trainInAir = false;
   /* state.wheelAngle = (state.wheelAngle + (train.isReversed() ? -1 : 1) 
@@ -56,9 +60,11 @@ function renderTrain(ctx, state, train) {
     if (i == 0 && train.trainCars() == 1) {
       matrices.rotateY(Math.PI);
       ctx.drawCarModel(models["head"], i, matrices);
+      ctx.drawCarModel(state.dhHeadDisp.model, i, matrices);
       ctx.drawCarModel(train.isReversed() ? models["taillight"] : models["headlight"], i, matrices);
       matrices.popPushPose();
       ctx.drawCarModel(models["head"], i, matrices);
+      ctx.drawCarModel(state.dhHeadDisp.model, i, matrices);
       ctx.drawCarModel(train.isReversed() ? models["headlight"] : models["taillight"], i, matrices);
 
       matrices.translate(0, 2.45, 0);
@@ -66,6 +72,7 @@ function renderTrain(ctx, state, train) {
     } else if (i == 0) {
       matrices.rotateY(Math.PI);
       ctx.drawCarModel(models["head"], i, matrices);
+      ctx.drawCarModel(state.dhHeadDisp.model, i, matrices);
       ctx.drawCarModel(train.isReversed() ? models["taillight"] : models["headlight"], i, matrices);
       ctx.drawCarModel(models["end"], i, matrices);
       matrices.popPushPose();
@@ -74,6 +81,7 @@ function renderTrain(ctx, state, train) {
       renderBogie(ctx, state, matrices, i, trainInAir, true);
     } else if (i == train.trainCars() - 1) {
       ctx.drawCarModel(models["head"], i, matrices);
+      ctx.drawCarModel(state.dhHeadDisp.model, i, matrices);
       ctx.drawCarModel(train.isReversed() ? models["headlight"] : models["taillight"], i, matrices);
       ctx.drawCarModel(models["end"], i, matrices);
 
@@ -82,8 +90,10 @@ function renderTrain(ctx, state, train) {
     } else {
       matrices.rotateY(Math.PI);
       ctx.drawCarModel(models["end"], i, matrices);
+      if (i < train.trainCars() / 2) ctx.drawCarModel(state.dhSideDisp.model, i, matrices);
       matrices.popPushPose();
       ctx.drawCarModel(models["end"], i, matrices);
+      if (i >= train.trainCars() / 2) ctx.drawCarModel(state.dhSideDisp.model, i, matrices);
     }
     matrices.popPose();
     ctx.drawCarModel(state.bodyModel, i, null);
@@ -117,32 +127,33 @@ function renderTrain(ctx, state, train) {
 }
 
 function renderBogie(ctx, state, matrices, i, trainInAir, isCar) {
-  modelBogieToUse = trainInAir ? modelBogieAir : modelBogie;
   if (isCar) {
-    ctx.drawCarModel(modelBogieToUse, i, matrices);
+    ctx.drawCarModel(modelBogie, i, matrices);
   } else {
-    ctx.drawConnModel(modelBogieToUse, i, matrices);
+    ctx.drawConnModel(modelBogie, i, matrices);
   }
 
-  //matrices.pushPose();
-  //matrices.translate(0, 1.3723, 1);
-  //matrices.rotateX(state.wheelAngle);
-  //if (isCar) {
-  //  ctx.drawCarModel(modelBogieWheel, i, matrices);
-  //} else {
-  //  ctx.drawConnModel(modelBogieWheel, i, matrices);
-  //}
-  //matrices.popPose();
+  if (monorailTypeLangen) {
+    matrices.pushPose();
+    matrices.translate(0, 1.3723, 1);
+    matrices.rotateX(state.wheelAngle);
+    if (isCar) {
+      ctx.drawCarModel(modelBogieWheel, i, matrices);
+    } else {
+      ctx.drawConnModel(modelBogieWheel, i, matrices);
+    }
+    matrices.popPose();
 
-  //matrices.pushPose();
-  //matrices.translate(0, 1.3723, -1);
-  //matrices.rotateX(state.wheelAngle);
-  //if (isCar) {
-  //  ctx.drawCarModel(modelBogieWheel, i, matrices);
-  //} else {
-  //  ctx.drawConnModel(modelBogieWheel, i, matrices);
-  //}
-  //matrices.popPose();
+    matrices.pushPose();
+    matrices.translate(0, 1.3723, -1);
+    matrices.rotateX(state.wheelAngle);
+    if (isCar) {
+      ctx.drawCarModel(modelBogieWheel, i, matrices);
+    } else {
+      ctx.drawConnModel(modelBogieWheel, i, matrices);
+    }
+    matrices.popPose();
+  }
 }
 
 function smoothEnds(startValue, endValue, startTime, endTime, time) {

@@ -2,10 +2,24 @@
   "custom_trains": {
     "cx_cxd106_onix152": {
       "name": "CyanEX CXD106 (ONIX 152)",
-      "description": "Created by: Zbx1425\n\nType-M suspended monorail EMU train based on the MTR S-Train, with the CyanEX livery.\nFeatures a LCD dynamic PIS system implemented with JavaScript capabilities.\nOperated APM services at TeaCon 2023.",
+      "description": "Created by: Zbx1425\n\nMini Langen suspended monorail EMU train based on the MTR S-Train, with the CyanEX livery.\nFeatures a LCD dynamic PIS system implemented with JavaScript capabilities.\nOperated APM services at TeaCon 2023.",
       "base_type": "train_9_2",
       "color": "2AF0AD",
       "script_files": [ "mtr:zbx1425/cxd106/main.js" ],
+      "script_texts": [ "var monorailTypeLangen = true;" ],
+      "bve_sound_base_id": "onix152",
+      "has_gangway_connection": true,
+      "is_jacobs_bogie": true,
+      "bogie_position": 2.45,
+      "rail_surface_offset": 3.3
+    },
+    "cx_cxd109_onix152": {
+      "name": "CyanEX CXD109 (ONIX 152)",
+      "description": "Created by: Zbx1425\n\nMini SAFEGE suspended monorail EMU train based on the MTR S-Train, with the CyanEX livery.\nFeatures a LCD dynamic PIS system implemented with JavaScript capabilities.\nOperated APM services at TeaCon JiaChen.",
+      "base_type": "train_9_2",
+      "color": "2AF0AD",
+      "script_files": [ "mtr:zbx1425/cxd106/main.js" ],
+      "script_texts": [],
       "bve_sound_base_id": "onix152",
       "has_gangway_connection": true,
       "is_jacobs_bogie": true,

@@ -4,6 +4,7 @@ var pisConfig = {
     "arriveDistance": 100,
     "arriveDistanceTerm": 100,
     "departDistance": 30,
+    "departDistanceSpecDep": 30,
     "door": "both",
     "tbOnPlat": false
   },
@@ -23,12 +24,30 @@ var pisConfig = {
   },
 
   "routes": {
-    "10s": { "annRouteName": "rel", "destName": "内环|CW Loop", isLoopLine: true },
-    "10x": { "annRouteName": "rel", "destName": "外环|ACW Loop", isLoopLine: true },
-    "11s": { "annRouteName": "rel" },
-    "11x": { "annRouteName": "rel" },
-    "20s": { "annRouteName": "aml" },
-    "20x": { "annRouteName": "aml" }
+    "10s": { "annRouteName": "rel", isLoopLine: true,
+      "destName": "内环|CW Loop", "headSideDest": "R 内环|CW Loop",
+      "destInfo": "本列车运行红线\n内环方向"
+    },
+    "10x": { "annRouteName": "rel", isLoopLine: true,
+      "destName": "外环|ACW Loop", "headSideDest": "R 外环|ACW Loop",
+      "destInfo": "本列车运行红线\n外环方向"
+    },
+    "11s": { "annRouteName": "rel",
+      "headSideDest": "RA 北角|North Point",
+      "destInfo": "本列车运行红线\n外环方向, 终点是小镇西\n之后, 直通运行黄线\n北角码头方向"
+    },
+    "11x": { "annRouteName": "rel",
+      "headSideDest": "R 小镇西|West Yuushya",
+      "destInfo": "本列车运行红线\n内环方向, 终点是小镇西"
+    },
+    "20s": { "annRouteName": "aml",
+      "headSideDest": "A 北角|North Point",
+      "destInfo": "本列车运行黄线\n北角码头方向"
+    },
+    "20x": { "annRouteName": "aml",
+      "headSideDest": "AR 小镇西|West Yuushya",
+      "destInfo": "本列车运行黄线\n小镇西方向\n之后, 直通运行红线\n内环方向"
+    }
   },
 
   "routeStations": {
