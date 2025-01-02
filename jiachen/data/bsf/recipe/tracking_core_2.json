@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WDW",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:ender_eye"
+    },
+    "W": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "id": "bsf:tracking_core",
+    "count": 16,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

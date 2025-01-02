@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cyan_dye"
+    },
+    "B": {
+      "item": "minecraft:copper_ingot"
+    },
+    "C": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "D": {
+      "item": "minecraft:leather_boots"
+    },
+    "E": {
+      "item": "bsf:gravity_core"
+    }
+  },
+  "result": {
+    "id": "bsf:snow_fall_boots",
+    "count": 0,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

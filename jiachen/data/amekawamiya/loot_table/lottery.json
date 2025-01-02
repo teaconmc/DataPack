@@ -1,0 +1,167 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:blue_topaz_gem",
+                "weight": 64,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  },
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:blue_topaz_gem",
+                "weight": 32,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  },
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:blue_topaz_gem",
+                "weight": 16,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  },
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 8
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:sapphire_gem",
+                "weight": 8,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:sapphire_gem",
+                "weight": 4,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  },
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:sapphire_gem",
+                "weight": 2,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  },
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "locusazzurro_icaruswings:sapphire_gem",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                      {
+                        "text": "姬川岛",
+                        "type": "text",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "mode": "replace_all"
+                  },
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 8
+                  }
+                ]
+              }
+        ]
+      }
+    ]
+  }

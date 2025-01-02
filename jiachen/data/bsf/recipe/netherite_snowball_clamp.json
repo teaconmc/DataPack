@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "bsf:diamond_snowball_clamp"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "bsf:netherite_snowball_clamp",
+    "count": 0,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "CDC",
+    "BAB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:shulker_shell"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:gunpowder"
+    },
+    "D": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "id": "bsf:unstable_core",
+    "count": 8,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

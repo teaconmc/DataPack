@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABC",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "bsf:repulsion_core"
+    },
+    "B": {
+      "item": "bsf:explosive_snowball"
+    },
+    "C": {
+      "item": "bsf:gravity_core"
+    }
+  },
+  "result": {
+    "id": "bsf:black_hole_snowball",
+    "count": 1,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

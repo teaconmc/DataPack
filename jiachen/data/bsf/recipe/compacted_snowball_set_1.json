@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "compacted_snowball_set",
+  "ingredients": [
+    {
+      "item": "bsf:smooth_snowball"
+    },
+    {
+      "item": "bsf:smooth_snowball"
+    },
+    {
+      "item": "bsf:smooth_snowball"
+    }
+  ],
+  "result": {
+    "id": "bsf:compacted_snowball_set",
+    "count": 0,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

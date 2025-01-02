@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WSW",
+    " W "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:iron_bars"
+    },
+    "W": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "bsf:snowball_tank",
+    "count": 1,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "G  "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ender_eye"
+    },
+    "B": {
+      "item": "bsf:super_power_core"
+    },
+    "C": {
+      "item": "bsf:powerful_snowball_cannon"
+    },
+    "D": {
+      "item": "minecraft:lodestone"
+    },
+    "E": {
+      "item": "bsf:super_frozen_core"
+    },
+    "F": {
+      "item": "bsf:freezing_snowball_cannon"
+    },
+    "G": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "id": "bsf:snowball_shotgun",
+    "count": 1,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}

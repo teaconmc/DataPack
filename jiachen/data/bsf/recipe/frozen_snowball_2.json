@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WRW",
+    "WWW"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:packed_ice"
+    },
+    "W": {
+      "item": "bsf:smooth_snowball"
+    }
+  },
+  "result": {
+    "id": "bsf:frozen_snowball",
+    "count": 8,
+    "components": {
+      "bsf:region": {
+        "end": [
+          0,
+          -1000,
+          0
+        ],
+        "start": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      "lore": [
+        "TeaCon特供，BSF物品合成后无法使用"
+      ]
+    }
+  }
+}
