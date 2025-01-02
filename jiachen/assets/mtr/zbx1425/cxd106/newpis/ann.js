@@ -1,6 +1,17 @@
 
 function playAnn(ctx, state, train) {
-  if (state.posPhase.stateNowFirst()) {
+  if (state.interruptPhase.stateNow() != "") {
+    if (state.interruptPhase.stateNowFirst()) {
+      let interrupt = state.interruptPhase.stateNow();
+      let soundToPlay = "";
+      if (interrupt == "hold") {
+        soundToPlay = "train_hold";
+      }
+      if (soundToPlay != "") {
+        ctx.playAnnSound(Resources.identifier("mtr:ann_" + soundToPlay), 1, 1);
+      }
+    }
+  } else if (state.posPhase.stateNowFirst()) {
     let stations = train.getThisRoutePlatforms();
     if (stations.size() <= 1) return;
     let nextIndex = train.getThisRoutePlatformsNextIndex();
