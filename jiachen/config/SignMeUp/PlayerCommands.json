@@ -8,14 +8,14 @@
       ]
     },
     {
-      "title": "清空状态效果",
+      "title": "清除状态效果",
       "tooltip": "清空当前身上所有生效的状态效果",
       "commands": [
         "/effect clear @s"
       ]
     },
     {
-      "title": "恢复所有状态",
+      "title": "补满血量饱食",
       "tooltip": "回复自身血量、饥饿值、和经验等级",
       "commands": [
         "/effect clear @s",
@@ -32,6 +32,20 @@
       "tooltip": "把你的生命值设为零，大概会导致你回到重生点",
       "commands": [
         "/kill @s"
+      ]
+    },
+    {
+      "title": "领取 游览手册",
+      "tooltip": "如果你把进入时发的游览手册弄丢了，可以再领一本",
+      "commands": [
+        "/give @s ae2:guide"
+      ]
+    },
+    {
+      "title": "领取 评论工具",
+      "tooltip": "如果你把进入时发的评论工具弄丢了，可以再领一个",
+      "commands": [
+        "/give @s worldcomment:comment_tool"
       ]
     }
   ]
