@@ -4,7 +4,8 @@
       "title": "清空背包",
       "tooltip": "清空自身背包里的所有物品",
       "commands": [
-        "/clear @s"
+        "/clear @s",
+        "/ac safe clear"
       ]
     },
     {
