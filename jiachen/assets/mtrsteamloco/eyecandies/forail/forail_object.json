@@ -1,19 +1,5 @@
 {
-    "forail_hkl_2_years_anniversary_trial_ride_day_cardboard_cut-out": {
-        "name": "§2§o[FoRail]§r HKL 2 Years Annyiversary Trial Ride Day cardboard cut-out",
-        "model": "mtrsteamloco:eyecandies/forail/hkl_trial_ride_day_cardboard_cut_out/hkl_trial_ride_day_cardboard_cut_out.obj"
-    },
-	"forail_hkl_hkb_plat_1_platform_edge_1_right": {
-		"name": "§2§o[FoRail]§r HKL HKB plat 1 platform edge 1 right",
-		"model": "mtrsteamloco:eyecandies/forail/hkl_hkb_plat_1_platform_edge_1/hkl_hkb_plat_1_platform_edge_1_right.obj",
-		"flipV": true
-	},
-		"forail_hkl_hkb_plat_1_platform_edge_1_left": {
-		"name": "§2§o[FoRail]§r HKL HKB plat 1 platform edge 1 left",
-		"model": "mtrsteamloco:eyecandies/forail/hkl_hkb_plat_1_platform_edge_1/hkl_hkb_plat_1_platform_edge_1_left.obj",
-		"flipV": true
-	},
-		"forail_jp_trap_point_em_1": {
+	"forail_jp_trap_point_em_1": {
 	"name": "§2§o[FoRail]§r JP Trap Point Emergency Protect Device (EM)",
 	"model": "mtrsteamloco:eyecandies/forail/jp_trap_point_em_1/jp_trap_point_em_1.obj",
 	"flipV": true
