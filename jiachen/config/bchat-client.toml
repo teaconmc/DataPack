@@ -1,0 +1,66 @@
+#Speed of bullets
+#Unit: SPs per tick
+#default: 2.0
+# Default: 6.0
+# Range: 3.0 ~ 12.0
+bullet_speed = 6.0
+#Life of centered bullets
+#Unit: ticks (1/20 sec)
+#default: 160
+# Default: 160
+# Range: 20 ~ 400
+bullet_life = 160
+#Max number of bullets displayed on screen
+#default: 200
+# Default: 200
+# Range: 10 ~ 800
+max_bullet = 200
+#When client fps lower than configured, new bullets will not launch
+#default: 30
+# Default: 30
+# Range: 0 ~ 144
+min_fps = 15
+#Whether to show senders name before bullets
+#default: false
+show_sender = true
+#Display mode of bullet chat, allowed values are listed below:
+#NORMAL: show bullets, show chats
+#HIDE_CHAT: show bullets, hide chats
+#STREAMER: hide bullets, hide chats
+#ALWAYS_ASK: choose once enter a world
+#default: ALWAYS_ASK
+#Allowed Values: NORMAL, HIDE_CHAT, HIDE_BULLET, STREAMER, ALWAYS_ASK
+mode = "ALWAYS_ASK"
+#Whether to parse /tell infos
+#default: false
+parse_tell = false
+#Adopt the settings from the Chat Settings panel
+#If true, all the settings below will be invalid!
+#default: true
+adopt_chat = true
+#Size of the bullet text
+#default: 1.0
+# Default: 1.0
+# Range: 0.2 ~ 2.0
+text_size = 1.0
+#Opacity of the bullets
+#default: 1.0
+# Default: 1.0
+# Range: 0.2 ~ 1.0
+opacity = 1.0
+#The size of line spacing
+#default: 0.0
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+line_spacing = 0.0
+#Bullet display offset on top
+#Unit: SP
+#default: 0
+# Default: 0
+# Range: 0 ~ 400
+top_offset = 0
+#Number of bullet tracks on screen
+#This value will be chopped by other settings
+# Default: 12
+# Range: 1 ~ 64
+track_num = 33
