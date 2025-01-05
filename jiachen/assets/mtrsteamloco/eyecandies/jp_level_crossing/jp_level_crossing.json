@@ -1,0 +1,33 @@
+{
+    "neomtr_jp_level_crossing_siren_l": {
+        "name": "NeoMTR JP Level Crossing Siren Left",
+        "model": "mtrsteamloco:eyecandies/jp_level_crossing/siren_l.obj",
+        "flipV": true
+    },
+    "neomtr_jp_level_crossing_fence_2m": {
+        "name": "NeoMTR JP Level Crossing fence 2m",
+        "model": "mtrsteamloco:eyecandies/jp_level_crossing/fence_2m.obj",
+        "flipV": true
+    },
+    "neomtr_jp_level_crossing_barrier_8m_l": {
+        "name": "NeoMTR JP Level Crossing barrier 8m Left",
+        "model": "mtrsteamloco:eyecandies/jp_level_crossing/barrier_8m_l.obj",
+        "flipV": true
+    },
+    "neomtr_jp_level_crossing_barrier_8m_r": {
+        "name": "NeoMTR JP Level Crossing barrier 8m Right",
+        "model": "mtrsteamloco:eyecandies/jp_level_crossing/barrier_8m_r.obj",
+        "flipV": true
+    },
+    "neomtr_jp_level_crossing_barrier_6m_l": {
+        "name": "NeoMTR JP Level Crossing barrier 6m Left",
+        "model": "mtrsteamloco:eyecandies/jp_level_crossing/barrier_6m_l.obj",
+        "flipV": true
+    },
+    "neomtr_jp_level_crossing_barrier_6m_r": {
+        "name": "NeoMTR JP Level Crossing barrier 6m Right",
+        "model": "mtrsteamloco:eyecandies/jp_level_crossing/barrier_6m_r.obj",
+        "flipV": true
+    }
+
+}
