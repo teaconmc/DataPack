@@ -1,18 +1,19 @@
 {
   "playerCommands": [
     {
-      "title": "清空背包",
-      "tooltip": "清空自身背包里的所有物品",
+      "title": "清空背包和饰品",
+      "tooltip": "清空自身背包和饰品栏里的所有物品",
       "commands": [
         "/clear @s",
-        "/ac safe clear"
+        "/curios clear @s"
       ]
     },
     {
       "title": "清除状态效果",
-      "tooltip": "清空当前身上所有生效的状态效果",
+      "tooltip": "清空当前身上所有生效的状态效果（包括不死灵药）",
       "commands": [
-        "/effect clear @s"
+        "/effect clear @s",
+        "/the_elixir human @s"
       ]
     },
     {
@@ -30,7 +31,7 @@
     },
     {
       "title": "紧急脱困",
-      "tooltip": "把你的生命值设为零，大概会导致你回到重生点",
+      "tooltip": "把你的生命值设为零，大概会导致你回到重生点或者最后一次访问的土地庙",
       "commands": [
         "/kill @s"
       ]
@@ -47,6 +48,35 @@
       "tooltip": "如果你把进入时发的评论工具弄丢了，可以再领一个",
       "commands": [
         "/give @s worldcomment:comment_tool"
+      ]
+    },
+    {
+      "title": "领取 集卡册",
+      "tooltip": "如果你不想按ESC再打开集卡册，行吧，也可以再领一个",
+      "commands": [
+        "/give @s scattered_shards:shard_tablet"
+      ]
+    },
+    {
+      "title": "快速饥饿",
+      "tooltip": "健胃消食片，让你可以继续品尝食物",
+      "commands": [
+        "/effect give @s minecraft:hunger 10 100 true"
+      ]
+    },
+    {
+      "title": "清空 AC 保险箱",
+      "tooltip": "如果你的保险箱里塞了太多不需要保险的东西",
+      "commands": [
+        "/ac safe clear",
+        "/tellraw @s [\"已清空 \",{\"selector\":\"@s\"},\" 的 AreaControl 保险箱\"]"
+      ]
+    },
+    {
+      "title": "随地坐下",
+      "tooltip": "按wasd起身",
+      "commands": [
+        "/animate play simple_animator:sit"
       ]
     }
   ]
