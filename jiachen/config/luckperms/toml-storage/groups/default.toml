@@ -25,7 +25,15 @@ permission = "command.kiwi"
 value = false
 
 [[permissions]]
+permission = "command.kiwi.*"
+value = false
+
+[[permissions]]
 permission = "command.ecliptic"
+value = false
+
+[[permissions]]
+permission = "command.ecliptic.*"
 value = false
 
 [[permissions]]
@@ -41,11 +49,19 @@ permission = "command.easy_npc"
 value = false
 
 [[permissions]]
+permission = "command.easy_npc.*"
+value = false
+
+[[permissions]]
 permission = "command.inkcraft.version"
 value = true
 
 [[permissions]]
 permission = "command.inkcraft"
+value = false
+
+[[permissions]]
+permission = "command.inkcraft.*"
 value = false
 
 [[permissions]]
@@ -57,7 +73,15 @@ permission = "command.bathappy"
 value = false
 
 [[permissions]]
+permission = "command.bathappy.*"
+value = false
+
+[[permissions]]
 permission = "command.mystiasizakaya"
+value = false
+
+[[permissions]]
+permission = "command.mystiasizakaya.*"
 value = false
 
 [[permissions]]
@@ -65,15 +89,32 @@ permission = "command.fluxnetworks"
 value = false
 
 [[permissions]]
+permission = "command.fluxnetworks.*"
+value = false
+
+[[permissions]]
 permission = "command.convivium"
 value = false
+
+[[permissions]]
+permission = "command.convivium.*"
+value = false
+
 
 [[permissions]]
 permission = "command.thatskyinteractions.tree"
 value = false
 
 [[permissions]]
+permission = "command.thatskyinteractions.tree.*"
+value = false
+
+[[permissions]]
 permission = "command.whispergrove"
+value = false
+
+[[permissions]]
+permission = "command.whispergrove.*"
 value = false
 
 [[permissions]]
@@ -86,4 +127,8 @@ value = true
 
 [[permissions]]
 permission = "command.areacontrol"
+value = false
+
+[[permissions]]
+permission = "command.areacontrol.*"
 value = false
