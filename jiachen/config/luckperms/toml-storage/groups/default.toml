@@ -51,3 +51,27 @@ value = false
 [[permissions]]
 permission = "powertool.see_command_feedback_from_others"
 value = false
+
+[[permissions]]
+permission = "command.bathappy"
+value = false
+
+[[permissions]]
+permission = "command.mystiasizakaya"
+value = false
+
+[[permissions]]
+permission = "command.fluxnetworks"
+value = false
+
+[[permissions]]
+permission = "command.convivium"
+value = false
+
+[[permissions]]
+permission = "command.thatskyinteractions.tree"
+value = false
+
+[[permissions]]
+permission = "command.whispergrove"
+value = false
