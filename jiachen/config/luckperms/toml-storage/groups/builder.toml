@@ -78,3 +78,27 @@ value = true
 [[permissions]]
 permission = "command.areacontrol"
 value = true
+
+[[permissions]]
+permission = "command.bathappy"
+value = true
+
+[[permissions]]
+permission = "command.mystiasizakaya"
+value = true
+
+[[permissions]]
+permission = "command.fluxnetworks"
+value = true
+
+[[permissions]]
+permission = "command.convivium"
+value = true
+
+[[permissions]]
+permission = "command.thatskyinteractions.tree"
+value = true
+
+[[permissions]]
+permission = "command.whispergrove"
+value = true
