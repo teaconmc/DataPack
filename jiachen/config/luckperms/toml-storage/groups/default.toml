@@ -21,5 +21,33 @@ permission = "voteme.modify.counter"
 value = false
 
 [[permissions]]
+permission = "command.kiwi"
+value = false
+
+[[permissions]]
+permission = "command.ecliptic"
+value = false
+
+[[permissions]]
+permission = "command.areacontrol.safe"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.safe.clear"
+value = true
+
+[[permissions]]
+permission = "command.easy_npc"
+value = false
+
+[[permissions]]
+permission = "command.inkcraft.start"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft"
+value = false
+
+[[permissions]]
 permission = "powertool.see_command_feedback_from_others"
 value = false
