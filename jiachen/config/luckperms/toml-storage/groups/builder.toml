@@ -74,3 +74,7 @@ value = true
 [[permissions]]
 permission = "areacontrol.command"
 value = true
+
+[[permissions]]
+permission = "command.areacontrol"
+value = true
