@@ -41,8 +41,8 @@ permission = "command.easy_npc"
 value = false
 
 [[permissions]]
-permission = "command.inkcraft.start"
-value = true
+permission = "command.inkcraft.version"
+value = false
 
 [[permissions]]
 permission = "command.inkcraft"
@@ -75,3 +75,11 @@ value = false
 [[permissions]]
 permission = "command.whispergrove"
 value = false
+
+[[permissions]]
+permission = "command.inkcraft.next"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.current"
+value = true
