@@ -46,3 +46,31 @@ value = true
 [[permissions]]
 permission = "command.gamemode.*"
 value = true
+
+[[permissions]]
+permission = "command.ecliptic"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.safe"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.safe.clear"
+value = true
+
+[[permissions]]
+permission = "command.easy_npc"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.start"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft"
+value = true
+
+[[permissions]]
+permission = "areacontrol.command"
+value = true
