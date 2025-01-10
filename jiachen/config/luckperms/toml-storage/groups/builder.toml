@@ -52,11 +52,7 @@ permission = "command.ecliptic"
 value = true
 
 [[permissions]]
-permission = "command.areacontrol.safe"
-value = true
-
-[[permissions]]
-permission = "command.areacontrol.safe.clear"
+permission = "command.ecliptic.*"
 value = true
 
 [[permissions]]
@@ -64,7 +60,11 @@ permission = "command.easy_npc"
 value = true
 
 [[permissions]]
-permission = "command.inkcraft.start"
+permission = "command.easy_npc.*"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.version"
 value = true
 
 [[permissions]]
@@ -72,15 +72,19 @@ permission = "command.inkcraft"
 value = true
 
 [[permissions]]
-permission = "areacontrol.command"
+permission = "command.inkcraft.*"
 value = true
 
 [[permissions]]
-permission = "command.areacontrol"
-value = true
+permission = "powertool.see_command_feedback_from_others"
+value = false
 
 [[permissions]]
 permission = "command.bathappy"
+value = true
+
+[[permissions]]
+permission = "command.bathappy.*"
 value = true
 
 [[permissions]]
@@ -88,7 +92,15 @@ permission = "command.mystiasizakaya"
 value = true
 
 [[permissions]]
+permission = "command.mystiasizakaya.*"
+value = true
+
+[[permissions]]
 permission = "command.fluxnetworks"
+value = true
+
+[[permissions]]
+permission = "command.fluxnetworks.*"
 value = true
 
 [[permissions]]
@@ -96,9 +108,46 @@ permission = "command.convivium"
 value = true
 
 [[permissions]]
+permission = "command.convivium.*"
+value = true
+
+
+[[permissions]]
 permission = "command.thatskyinteractions.tree"
+value = true
+
+[[permissions]]
+permission = "command.thatskyinteractions.tree.*"
 value = true
 
 [[permissions]]
 permission = "command.whispergrove"
 value = true
+
+[[permissions]]
+permission = "command.whispergrove.*"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.next"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.current"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.*"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.admin.*"
+value = false
+
+[[permissions]]
+permission = "command.areacontrol.admin"
+value = false
