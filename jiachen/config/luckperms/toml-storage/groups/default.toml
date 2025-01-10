@@ -42,7 +42,7 @@ value = false
 
 [[permissions]]
 permission = "command.inkcraft.version"
-value = false
+value = true
 
 [[permissions]]
 permission = "command.inkcraft"
