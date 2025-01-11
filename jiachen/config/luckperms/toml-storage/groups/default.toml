@@ -69,14 +69,6 @@ permission = "powertool.see_command_feedback_from_others"
 value = false
 
 [[permissions]]
-permission = "command.bathappy"
-value = false
-
-[[permissions]]
-permission = "command.bathappy.*"
-value = false
-
-[[permissions]]
 permission = "command.mystiasizakaya"
 value = false
 
