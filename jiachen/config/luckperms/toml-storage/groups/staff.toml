@@ -22,3 +22,124 @@ value = true
 [[permissions]]
 permission = "luckperms.*"
 value = true
+
+[[permissions]]
+permission = "voteme.create"
+value = true
+
+[[permissions]]
+permission = "voteme.create.counter"
+value = true
+
+[[permissions]]
+permission = "voteme.modify"
+value = true
+
+[[permissions]]
+permission = "voteme.modify.counter"
+value = true
+
+[[permissions]]
+permission = "command.kiwi"
+value = true
+
+[[permissions]]
+permission = "command.kiwi.*"
+value = true
+
+[[permissions]]
+permission = "command.ecliptic"
+value = true
+
+[[permissions]]
+permission = "command.ecliptic.*"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.safe"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.safe.clear"
+value = true
+
+[[permissions]]
+permission = "command.easy_npc"
+value = true
+
+[[permissions]]
+permission = "command.easy_npc.*"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.version"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.*"
+value = true
+
+[[permissions]]
+permission = "powertool.see_command_feedback_from_others"
+value = true
+
+[[permissions]]
+permission = "command.mystiasizakaya"
+value = true
+
+[[permissions]]
+permission = "command.mystiasizakaya.*"
+value = true
+
+[[permissions]]
+permission = "command.fluxnetworks"
+value = true
+
+[[permissions]]
+permission = "command.fluxnetworks.*"
+value = true
+
+[[permissions]]
+permission = "command.convivium"
+value = true
+
+[[permissions]]
+permission = "command.convivium.*"
+value = true
+
+
+[[permissions]]
+permission = "command.thatskyinteractions.tree"
+value = true
+
+[[permissions]]
+permission = "command.thatskyinteractions.tree.*"
+value = true
+
+[[permissions]]
+permission = "command.whispergrove"
+value = true
+
+[[permissions]]
+permission = "command.whispergrove.*"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.next"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.current"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.*"
+value = true
