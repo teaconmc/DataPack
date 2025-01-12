@@ -101,11 +101,11 @@ value = true
 
 
 [[permissions]]
-permission = "command.thatskyinteractions.tree"
+permission = "command.thatskyinteractions.*"
 value = true
 
 [[permissions]]
-permission = "command.thatskyinteractions.tree.*"
+permission = "command.thatskyinteractions"
 value = true
 
 [[permissions]]
