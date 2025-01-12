@@ -117,14 +117,6 @@ permission = "command.whispergrove.*"
 value = true
 
 [[permissions]]
-permission = "command.inkcraft.next"
-value = true
-
-[[permissions]]
-permission = "command.inkcraft.current"
-value = true
-
-[[permissions]]
 permission = "command.areacontrol"
 value = true
 
