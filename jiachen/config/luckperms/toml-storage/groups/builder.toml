@@ -64,10 +64,6 @@ permission = "command.easy_npc.*"
 value = true
 
 [[permissions]]
-permission = "command.inkcraft.version"
-value = true
-
-[[permissions]]
 permission = "command.inkcraft"
 value = true
 
